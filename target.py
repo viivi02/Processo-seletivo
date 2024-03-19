@@ -80,7 +80,9 @@ quiser. Seu objetivo é descobrir qual interruptor controla qual lâmpada.
 Como você faria para descobrir, usando apenas duas idas até uma das salas
 das lâmpadas, qual interruptor controla cada lâmpada?
 
-
+R: Eu ligo um interruptor e deixo ele um tempo ligado depois desligo ele e ligo outro, ao entrar na sala caso a lampada esteja acesa
+o interruptor que ta ligado corresponde a ela, se estiver apagada e fria será o interruptor que não mexi mas se ela estiver apagada e
+quente foi o primeiro que eu liguei e deixei um tempo ligado.
 """
 
 """
@@ -94,3 +96,6 @@ preferência ou pode ser previamente definida no código;
 
 b) Evite usar funções prontas, como, por exemplo, reverse;
 """
+palavra = input('Digite uma palavra: ')
+invertida = palavra[::-1]
+print(invertida)
